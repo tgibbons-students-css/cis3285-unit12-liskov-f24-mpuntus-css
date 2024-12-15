@@ -12,5 +12,8 @@ class Program
         Console.WriteLine("New entity ID: " + myEntity.ID.ToString());
         Console.WriteLine("New entity Name: " + myEntity.Name);
 
+        Console.WriteLine("Press any key to quit...");
+        Console.ReadKey();
+
     }
 }
